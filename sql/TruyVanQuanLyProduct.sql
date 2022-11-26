@@ -29,9 +29,9 @@ join product P on OD.ProductID = P.ProductID;
 SELECT C.CustomerID, C.CustomerName FROM customer C LEFT JOIN `order` O on C.CustomerID = O.CustomerID WHERE O.CustomerID IS NULL;
 
 -- Hiển thị mã hóa đơn, ngày bán và giá tiền của từng hóa đơn (giá một hóa đơn được tính bằng tổng giá bán của từng loại mặt hàng xuất hiện trong hóa đơn. Giá bán của từng loại được tính = odQTY*pPrice)
-SET @dsds = (SELECT SUM(OD.OrderQuantity*P.ProductPrice) FROM `order` O join `order_detail` OD on O.OrderID = OD.OrderID
-join `product` P on P.ProductID = OD.OrderID WHERE OD.OrderID = 3);
-UPDATE `order` AS O SET O.OrderTotalPrice = @dsds WHERE O.OrderID = 3
+-- SET @dsds = (SELECT SUM(OD.OrderQuantity*P.ProductPrice) FROM `order` O join `order_detail` OD on O.OrderID = OD.OrderID
+-- join `product` P on P.ProductID = OD.OrderID WHERE OD.OrderID = 3);
+-- UPDATE `order` AS O SET O.OrderTotalPrice = @dsds WHERE O.OrderID = 3
 
 -- SELECT SUM(OD.OrderQuantity*P.ProductPrice) FROM `order` O join `order_detail` OD on O.OrderID = OD.OrderID
 -- join `product` P on P.ProductID = OD.OrderID WHERE OD.OrderID = 1
