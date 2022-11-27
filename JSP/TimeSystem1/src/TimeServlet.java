@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Date;
 
-@WebServlet("/index")
+@WebServlet("/")
 public class TimeServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
