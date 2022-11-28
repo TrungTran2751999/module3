@@ -11,9 +11,17 @@
     <title>Calculating...</title>
 </head>
 <body>
-    <% double firstOP = Double.parseDouble(request.getParameter("firstOP"));
-       String operator = request.getParameter("operator");
-       double secondOP = Double.parseDouble(request.getParameter("secondOP"));
+    <%
+        double firstOP = 0;
+        String operator= "";
+        double secondOP = 0;
+    try{
+        firstOP = Double.parseDouble(request.getParameter("firstOP"));
+        operator = request.getParameter("operator");
+        secondOP = Double.parseDouble(request.getParameter("secondOP"));
+    }catch (Exception e){
+        response.sendRedirect("error.jsp");
+    }
     %>
     <h1>Result</h1>
     <p>
