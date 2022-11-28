@@ -13,6 +13,7 @@
 <body>
     <form action="AddCustomer.jsp" method="post">
         <table>
+            <%int x=3;%>
             <tr>
                 <td>Name:</td>
                 <td><input type="text" name="name" required></td>
