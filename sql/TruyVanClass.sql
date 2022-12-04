@@ -9,4 +9,4 @@ update student set student.classId = 2 where studentId = @ggg;
 
 select student.StudentName, `subject`.SubName, mark.Mark from student join mark
 on student.StudentID = mark.StudentID join subject on mark.StudentID = subject.SubID
-order by mark, student.StudentName desc;
+order by mark desc, student.StudentName asc;
