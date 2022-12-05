@@ -1,4 +1,4 @@
-package controller;
+package services;
 
 import models.User;
 
@@ -7,8 +7,8 @@ import java.util.List;
 
 public interface IUserDAO {
     void insertUser(User user) throws SQLException;
-    User selectUser(int id);
+    User selectUser(int id) throws SQLException;
     List<User> selectAllUser();
     boolean deleteUser(int id) throws SQLException;
-    boolean updateUser(int id) throws SQLException;
+    boolean updateUser(User user) throws SQLException;
 }
