@@ -62,6 +62,7 @@ public class UserServlet extends HttpServlet {
                 case "search":
                     showSearchForm(request, response);
                     break;
+                case "permision":
                 default:{
                     listUser(request, response);
                     break;

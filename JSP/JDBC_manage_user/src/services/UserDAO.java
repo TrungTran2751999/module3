@@ -61,6 +61,60 @@ public class UserDAO implements IUserDAO {
     }
 
     @Override
+    public void addUserTransaction(User user, int[] permision) {
+        Connection connection = null;
+        PreparedStatement psmt = null;
+        PreparedStatement psmtAssigment = null;
+        ResultSet rs = null;
+        try{
+            connection = getConnection();
+            connection.setAutoCommit(false);
+            psmt = connection.prepareStatement(INSERT_USER_SQL, Statement.RETURN_GENERATED_KEYS);
+            psmt.setInt(1, user.getId());
+            psmt.setString(2, user.getName());
+            psmt.setString(3, user.getEmail());
+            psmt.setString(4, user.getCountry());
+            int rowAffected = psmt.executeUpdate();
+            rs = psmt.getGeneratedKeys();
+            int userId = 0;
+            if(rs.next()){
+                userId = rs.getInt("id");
+            }
+            if(rowAffected == 1) {
+                String sqlPilot = "INSERT INTO user_permision(user_id,permision_id) VALUES (?,?)";
+                psmtAssigment = connection.prepareStatement(sqlPilot);
+                for (int permisionId : permision) {
+                    psmtAssigment.setInt(1, userId);
+                    psmtAssigment.setInt(2, permisionId);
+                    psmtAssigment.executeUpdate();
+                }
+                connection.commit();
+            }else{
+                connection.rollback();
+            }
+
+        }catch (Exception e){
+            try {
+                if(connection != null){
+                    connection.rollback();
+                }
+            }catch (Exception e1){
+                e.printStackTrace();
+            }
+            e.printStackTrace();
+        } finally {
+            try {
+                if(rs != null) rs.close();
+                if(psmt != null) psmt.close();
+                if(psmtAssigment != null) psmtAssigment.close();
+                if(connection != null) connection.close();
+            }catch (Exception e){
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+
+    @Override
     public List<User> selectUserByName(String input) throws SQLException {
         List<User> userSearch = new ArrayList<>();
         try(Connection connection = getConnection();

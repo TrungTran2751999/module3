@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bbe16cf-edcc-4764-8d2f-df9e6a0baf2d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/services/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/services/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JDBC_manage_user/services/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBC_manage_user/services/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/IUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/IUserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserDAO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/IUserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="240">
+              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+            <state relative-caret-position="355">
+              <caret line="113" column="9" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getConnection#0;class#UserDAO#0" />
@@ -64,12 +63,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/UserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-299">
-              <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+            <state relative-caret-position="280">
+              <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
               <folding>
                 <element signature="method#getOneUser#0;class#UserServlet#0" />
                 <element signature="method#showNewForm#0;class#UserServlet#0" />
                 <element signature="method#showEditForm#0;class#UserServlet#0" />
+                <element signature="method#showSearchForm#0;class#UserServlet#0" />
                 <element signature="method#insertUser#0;class#UserServlet#0" />
                 <element signature="method#editUser#0;class#UserServlet#0" />
                 <element signature="method#deleteUser#0;class#UserServlet#0" />
@@ -140,12 +140,12 @@
         <option value="$PROJECT_DIR$/src/models/User.java" />
         <option value="$PROJECT_DIR$/web/user/edit.jsp" />
         <option value="$PROJECT_DIR$/web/error-404.jsp" />
-        <option value="$PROJECT_DIR$/src/services/IUserDAO.java" />
         <option value="$PROJECT_DIR$/web/user/create.jsp" />
         <option value="$PROJECT_DIR$/web/user/search.jsp" />
         <option value="$PROJECT_DIR$/web/user/list.jsp" />
-        <option value="$PROJECT_DIR$/src/controller/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/services/IUserDAO.java" />
         <option value="$PROJECT_DIR$/src/services/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/controller/UserServlet.java" />
       </list>
     </option>
   </component>
@@ -156,7 +156,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="284" />
     <option name="y" value="69" />
     <option name="width" value="699" />
@@ -317,16 +317,15 @@
       <option name="presentableId" value="Default" />
       <updated>1670205382980</updated>
       <workItem from="1670205396127" duration="33082000" />
-      <workItem from="1670289149753" duration="4632000" />
+      <workItem from="1670289149753" duration="7967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37714000" />
+    <option name="totallyTimeSpent" value="41049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7487923" visible="true" weight="0.15204236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -338,7 +337,7 @@
       <window_info id="Web" order="7" sideWeight="0.25301206" side_tool="true" weight="0.14977308" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2749591" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2749591" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,16 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/IUserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/user/create.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -455,10 +444,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/IUserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+        <state relative-caret-position="355">
+          <caret line="113" column="9" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getConnection#0;class#UserDAO#0" />
@@ -474,12 +473,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        <state relative-caret-position="280">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
           <folding>
             <element signature="method#getOneUser#0;class#UserServlet#0" />
             <element signature="method#showNewForm#0;class#UserServlet#0" />
             <element signature="method#showEditForm#0;class#UserServlet#0" />
+            <element signature="method#showSearchForm#0;class#UserServlet#0" />
             <element signature="method#insertUser#0;class#UserServlet#0" />
             <element signature="method#editUser#0;class#UserServlet#0" />
             <element signature="method#deleteUser#0;class#UserServlet#0" />
