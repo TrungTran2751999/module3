@@ -13,6 +13,11 @@
 </head>
 <body>
     <h1>List User</h1>
+    <form action="/user">
+        <input type="hidden" name="action" value="search">
+        <input type="text" name="name">
+        <input type="submit">
+    </form>
     <h2><a href="user?action=create">Create User</a></h2>
     <table border="1">
         <tr>

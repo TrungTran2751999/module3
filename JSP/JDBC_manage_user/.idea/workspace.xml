@@ -7,113 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bbe16cf-edcc-4764-8d2f-df9e6a0baf2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/.idea/artifacts/CRUD_manage_customer_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/.idea/libraries/Mojarra_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/CRUD_manage_customer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/lib/javax.faces-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/lib/jstl/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/lib/jstl/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/artifacts/CRUD_manage_customer_war_exploded/WEB-INF/classes/controller/CustomerServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/artifacts/CRUD_manage_customer_war_exploded/WEB-INF/classes/model/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/artifacts/CRUD_manage_customer_war_exploded/WEB-INF/classes/service/CustomerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/artifacts/CRUD_manage_customer_war_exploded/WEB-INF/classes/service/CustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/artifacts/CRUD_manage_customer_war_exploded/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/artifacts/CRUD_manage_customer_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/artifacts/CRUD_manage_customer_war_exploded/customer/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/artifacts/CRUD_manage_customer_war_exploded/customer/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/artifacts/CRUD_manage_customer_war_exploded/customer/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/artifacts/CRUD_manage_customer_war_exploded/customer/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/production/CRUD_manage_customer/controller/CustomerServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/production/CRUD_manage_customer/model/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/production/CRUD_manage_customer/service/CustomerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/production/CRUD_manage_customer/service/CustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/web/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD_manage_customer/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JDBC_manage_user_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Mojarra_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC_manage_user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.faces-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/controller/UserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/models/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/services/IUserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/services/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/error-404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/user/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/user/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/user/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JDBC_manage_user/controller/UserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JDBC_manage_user/models/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JDBC_manage_user/services/IUserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JDBC_manage_user/services/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/.idea/artifacts/manage_product_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/.idea/libraries/Mojarra_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/lib/javax.faces-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/manage_product.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/artifacts/manage_product_war_exploded/WEB-INF/classes/controllers/ProductServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/artifacts/manage_product_war_exploded/WEB-INF/classes/models/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/artifacts/manage_product_war_exploded/WEB-INF/classes/services/ProductImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/artifacts/manage_product_war_exploded/WEB-INF/classes/services/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/artifacts/manage_product_war_exploded/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/artifacts/manage_product_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/artifacts/manage_product_war_exploded/error-404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/artifacts/manage_product_war_exploded/product/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/artifacts/manage_product_war_exploded/product/list_product.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/artifacts/manage_product_war_exploded/product/search.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/artifacts/manage_product_war_exploded/product/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/production/manage_product/controllers/ProductServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/production/manage_product/models/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/production/manage_product/services/ProductImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/out/production/manage_product/services/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/web/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage_product/web/product/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_manage_customer/src/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_manage_customer/src/controller/CustomerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_manage_customer/src/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_manage_customer/src/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_manage_customer/src/service/CustomerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_manage_customer/src/service/CustomerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_manage_customer/src/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_manage_customer/src/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_manage_customer/web/customer/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_manage_customer/web/customer/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_manage_customer/web/customer/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_manage_customer/web/customer/delete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_manage_customer/web/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_manage_customer/web/customer/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_manage_customer/web/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_manage_customer/web/customer/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_manage_customer/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_manage_customer/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/controller/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/services/IUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/services/IUserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/services/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/services/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/user/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_manage_user/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBC_manage_user/controller/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_manage_user/services/IUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBC_manage_user/services/IUserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_manage_user/services/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBC_manage_user/services/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/IUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/IUserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/error-404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/error-404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSP_Caculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSP_Caculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage_product/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manage_product/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage_product/src/controllers/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manage_product/src/controllers/ProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage_product/src/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manage_product/src/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage_product/src/services/ProductImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manage_product/src/services/ProductImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage_product/src/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manage_product/src/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage_product/web/error-404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../manage_product/web/error-404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage_product/web/product/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../manage_product/web/product/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage_product/web/product/list_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../manage_product/web/product/list_product.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage_product/web/product/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../manage_product/web/product/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/web/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/artifacts/CRUD_manage_customer_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_manage_customer/out/artifacts/CRUD_manage_customer_war_exploded/error-404.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,30 +29,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
               <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-              <folding>
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -154,20 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/IUserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/UserDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="101" column="21" lean-forward="true" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+            <state relative-caret-position="140">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,18 +52,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/services/UserDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-360">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/UserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="166" column="35" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
+            <state relative-caret-position="1035">
+              <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
               <folding>
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
                 <element signature="method#getOneUser#0;class#UserServlet#0" />
                 <element signature="method#showNewForm#0;class#UserServlet#0" />
                 <element signature="method#showEditForm#0;class#UserServlet#0" />
                 <element signature="method#insertUser#0;class#UserServlet#0" />
                 <element signature="method#editUser#0;class#UserServlet#0" />
+                <element signature="method#deleteUser#0;class#UserServlet#0" />
               </folding>
             </state>
           </provider>
@@ -196,11 +83,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/user/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#td#4;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="320">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/search.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -208,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/user/create.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            <state relative-caret-position="240">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -217,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/user/edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
+            <state relative-caret-position="560">
               <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
             </state>
           </provider>
@@ -246,14 +139,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/controller/IUserDAO.java" />
-        <option value="$PROJECT_DIR$/src/services/IUserDAO.java" />
         <option value="$PROJECT_DIR$/src/models/User.java" />
-        <option value="$PROJECT_DIR$/src/services/UserDAO.java" />
         <option value="$PROJECT_DIR$/web/user/edit.jsp" />
-        <option value="$PROJECT_DIR$/web/user/create.jsp" />
-        <option value="$PROJECT_DIR$/web/user/list.jsp" />
         <option value="$PROJECT_DIR$/web/error-404.jsp" />
+        <option value="$PROJECT_DIR$/src/services/IUserDAO.java" />
+        <option value="$PROJECT_DIR$/web/user/create.jsp" />
+        <option value="$PROJECT_DIR$/web/user/search.jsp" />
+        <option value="$PROJECT_DIR$/web/user/list.jsp" />
         <option value="$PROJECT_DIR$/src/controller/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/services/UserDAO.java" />
       </list>
     </option>
   </component>
@@ -264,10 +158,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-108" />
-    <option name="y" value="101" />
-    <option name="width" value="1382" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="675" />
+    <option name="y" value="-8" />
+    <option name="width" value="699" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -277,7 +171,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,21 +204,17 @@
               <item name="JDBC_manage_user" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="JDBC_manage_user" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Mojarra-2.4.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1670256296334" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1670261777545" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-j-8.0.31/mysql-connector-j-8.0.31.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -431,98 +320,93 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670205382980</updated>
-      <workItem from="1670205396127" duration="27764000" />
+      <workItem from="1670205396127" duration="33082000" />
+      <workItem from="1670289149753" duration="552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27764000" />
+    <option name="totallyTimeSpent" value="33634000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" sideWeight="0.25040916" side_tool="true" visible="true" weight="0.14977308" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7495908" visible="true" weight="0.14977308" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7487923" visible="true" weight="0.15204236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.25301206" side_tool="true" weight="0.14977308" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29623568" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31096563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="JSF" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="JSF" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" sideWeight="0.25301206" side_tool="true" visible="true" weight="0.14977308" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.7487923" visible="true" weight="0.14977308" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.3207856" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="JSF" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/controller/UserServerlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-          <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/IUserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/UserServerlet.java" />
     <entry file="file://$PROJECT_DIR$/web/error-404.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -530,52 +414,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/list.jsp">
+    <entry file="file://$PROJECT_DIR$/src/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#4;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/create.jsp">
+    <entry file="file://$PROJECT_DIR$/src/services/IUserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="101" column="21" lean-forward="true" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+        <state relative-caret-position="140">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="166" column="35" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
+        <state relative-caret-position="1035">
+          <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
           <folding>
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
             <element signature="method#getOneUser#0;class#UserServlet#0" />
             <element signature="method#showNewForm#0;class#UserServlet#0" />
             <element signature="method#showEditForm#0;class#UserServlet#0" />
             <element signature="method#insertUser#0;class#UserServlet#0" />
             <element signature="method#editUser#0;class#UserServlet#0" />
+            <element signature="method#deleteUser#0;class#UserServlet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

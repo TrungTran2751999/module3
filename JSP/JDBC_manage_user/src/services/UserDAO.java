@@ -17,6 +17,7 @@ public class UserDAO implements IUserDAO {
     private static final String DELETE_USER_BY_ID = "DELETE FROM USER WHERE ID = ?";
     private static final String UPDATE_USER_BY_ID = "UPDATE USER SET NAME = ?, EMAIL = ?, COUNTRY = ? WHERE ID = ?";
     private static final String SELECT_LAST_ID = "SELECT MAX(ID) FROM USER";
+    private static final String SELECT_USER_BY_NAME = "SELECT * FROM USER WHERE COUNTRY=? ORDER BY NAME";
 
     public UserDAO(){};
     private Connection getConnection(){
@@ -57,6 +58,27 @@ public class UserDAO implements IUserDAO {
         }catch (SQLException e){
             printSQLException(e);
         }
+    }
+
+    @Override
+    public List<User> selectUserByName(String input) throws SQLException {
+        List<User> userSearch = new ArrayList<>();
+        try(Connection connection = getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(SELECT_USER_BY_NAME)) {
+            preparedStatement.setString(1,input);
+            System.out.println(preparedStatement);
+            ResultSet rs = preparedStatement.executeQuery();
+            while (rs.next()){
+                int id = rs.getInt("id");
+                String name = rs.getString("name");
+                String email = rs.getString("email");
+                String country = rs.getString("country");
+                userSearch.add(new User(id, name, email, country));
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return userSearch;
     }
 
     @Override

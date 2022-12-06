@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet("/user")
@@ -57,6 +58,9 @@ public class UserServlet extends HttpServlet {
                     break;
                 case "delete":
                     deleteUser(request, response);
+                    break;
+                case "search":
+                    showSearchForm(request, response);
                     break;
                 default:{
                     listUser(request, response);
@@ -109,6 +113,23 @@ public class UserServlet extends HttpServlet {
             dispatcher = request.getRequestDispatcher("error-404.jsp");
         }
 
+        try {
+            dispatcher.forward(request,response);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+    private void showSearchForm(HttpServletRequest request, HttpServletResponse response) throws SQLException{
+        RequestDispatcher dispatcher;
+        String name = request.getParameter("name");
+        List<User> searchs = userDAO.selectUserByName(name);
+        if(searchs.size() > 0){
+            request.setAttribute("user", searchs);
+            request.setAttribute("country", name);
+            dispatcher = request.getRequestDispatcher("user/search.jsp");
+        }else{
+            dispatcher = request.getRequestDispatcher("error-404.jsp");
+        }
         try {
             dispatcher.forward(request,response);
         }catch (Exception e){
