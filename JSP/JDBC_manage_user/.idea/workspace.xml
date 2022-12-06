@@ -7,19 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bbe16cf-edcc-4764-8d2f-df9e6a0baf2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/user/search.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/controller/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/services/IUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/services/IUserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/services/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/WEB-INF/classes/services/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JDBC_manage_user_war_exploded/user/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JDBC_manage_user/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBC_manage_user/controller/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JDBC_manage_user/services/IUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBC_manage_user/services/IUserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JDBC_manage_user/services/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBC_manage_user/services/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/IUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/IUserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,23 +42,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="305">
+              <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#getConnection#0;class#UserDAO#0" />
+                <element signature="method#getMaxID#0;class#UserDAO#0" />
+                <element signature="method#selectUser#0;class#UserDAO#0" />
+                <element signature="method#selectAllUser#0;class#UserDAO#0" />
+                <element signature="method#deleteUser#0;class#UserDAO#0" />
+                <element signature="method#updateUser#0;class#UserDAO#0" />
+                <element signature="method#printSQLException#0;class#UserDAO#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/UserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+            <state relative-caret-position="-299">
+              <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
               <folding>
                 <element signature="method#getOneUser#0;class#UserServlet#0" />
                 <element signature="method#showNewForm#0;class#UserServlet#0" />
@@ -83,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/user/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="140">
               <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
@@ -92,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/user/search.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="180">
               <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
             </state>
           </provider>
@@ -159,8 +157,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="675" />
-    <option name="y" value="-8" />
+    <option name="x" value="284" />
+    <option name="y" value="69" />
     <option name="width" value="699" />
     <option name="height" value="744" />
   </component>
@@ -236,8 +234,6 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.83" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.83" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="JDBC_manage_user:war exploded">
           <settings>
@@ -321,15 +317,15 @@
       <option name="presentableId" value="Default" />
       <updated>1670205382980</updated>
       <workItem from="1670205396127" duration="33082000" />
-      <workItem from="1670289149753" duration="552000" />
+      <workItem from="1670289149753" duration="4632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33634000" />
+    <option name="totallyTimeSpent" value="37714000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7487923" visible="true" weight="0.15204236" />
@@ -342,7 +338,7 @@
       <window_info id="Web" order="7" sideWeight="0.25301206" side_tool="true" weight="0.14977308" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31096563" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2749591" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,20 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/search.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/user/create.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -459,10 +441,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getConnection#0;class#UserDAO#0" />
+            <element signature="method#getMaxID#0;class#UserDAO#0" />
+            <element signature="method#selectUser#0;class#UserDAO#0" />
+            <element signature="method#selectAllUser#0;class#UserDAO#0" />
+            <element signature="method#deleteUser#0;class#UserDAO#0" />
+            <element signature="method#updateUser#0;class#UserDAO#0" />
+            <element signature="method#printSQLException#0;class#UserDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        <state relative-caret-position="-299">
+          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
           <folding>
             <element signature="method#getOneUser#0;class#UserServlet#0" />
             <element signature="method#showNewForm#0;class#UserServlet#0" />
@@ -470,16 +483,6 @@
             <element signature="method#insertUser#0;class#UserServlet#0" />
             <element signature="method#editUser#0;class#UserServlet#0" />
             <element signature="method#deleteUser#0;class#UserServlet#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

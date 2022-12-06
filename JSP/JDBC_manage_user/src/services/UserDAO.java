@@ -11,13 +11,13 @@ public class UserDAO implements IUserDAO {
     private String jdbcUsername = "root";
     private String jdbcPassword = "123456";
 
-    private static final String INSERT_USER_SQL = "INSERT INTO user(id, name, email, country) VALUE (?,?,?,?)";
+    private static final String INSERT_USER_SQL = "{CALL insert_user(?,?,?,?)}";
     private static final String SELECT_USER_BY_ID = "SELECT * FROM USER WHERE ID=?";
     private static final String SELECT_ALL_USER = "SELECT * FROM USER";
     private static final String DELETE_USER_BY_ID = "DELETE FROM USER WHERE ID = ?";
     private static final String UPDATE_USER_BY_ID = "UPDATE USER SET NAME = ?, EMAIL = ?, COUNTRY = ? WHERE ID = ?";
     private static final String SELECT_LAST_ID = "SELECT MAX(ID) FROM USER";
-    private static final String SELECT_USER_BY_NAME = "SELECT * FROM USER WHERE COUNTRY=? ORDER BY NAME";
+    private static final String SELECT_USER_BY_NAME = "{CALL get_product_by_country(?)}";
 
     public UserDAO(){};
     private Connection getConnection(){
@@ -48,7 +48,7 @@ public class UserDAO implements IUserDAO {
         System.out.println(INSERT_USER_SQL);
 
         try(Connection connection = getConnection();
-            PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USER_SQL)){
+            CallableStatement preparedStatement = connection.prepareCall(INSERT_USER_SQL)){
             preparedStatement.setInt(1, getMaxID()+1);
             preparedStatement.setString(2, user.getName());
             preparedStatement.setString(3, user.getEmail());
@@ -64,10 +64,9 @@ public class UserDAO implements IUserDAO {
     public List<User> selectUserByName(String input) throws SQLException {
         List<User> userSearch = new ArrayList<>();
         try(Connection connection = getConnection();
-            PreparedStatement preparedStatement = connection.prepareStatement(SELECT_USER_BY_NAME)) {
-            preparedStatement.setString(1,input);
-            System.out.println(preparedStatement);
-            ResultSet rs = preparedStatement.executeQuery();
+            CallableStatement callableStatement = connection.prepareCall(SELECT_USER_BY_NAME)) {
+            callableStatement.setString(1, input);
+            ResultSet rs = callableStatement.executeQuery();
             while (rs.next()){
                 int id = rs.getInt("id");
                 String name = rs.getString("name");
@@ -141,7 +140,7 @@ public class UserDAO implements IUserDAO {
     public boolean updateUser(User user) throws SQLException {
         boolean rowUpdates = false;
         try(Connection connection = getConnection();
-            PreparedStatement preparedStatement = connection.prepareStatement(UPDATE_USER_BY_ID);){
+            CallableStatement preparedStatement = connection.prepareCall(UPDATE_USER_BY_ID);){
             preparedStatement.setString(1, user.getName());
             preparedStatement.setString(2, user.getEmail());
             preparedStatement.setString(3, user.getCountry());
